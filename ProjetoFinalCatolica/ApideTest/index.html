@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calendário de Jogos - Copa 2022</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="./script.js" defer></script> 
+        <!-- atributo defer espera o conteudo todo ser carregado para depois carregar o javascript quando o script entra no head  -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet"/>
+        
+        <div id="app">
+            <header>
+              <h1>Copa do Mundo 2022 </h1><br>
+        <h2>Calendário dos Jogos</h2>
+              <!-- <img src="./assets/logo.svg" alt="Logo NLW"> -->
+        </div>
+        
+            </header>
+
+        </head>
+  <body class="blue">
+
+      <form action="">
+        <h2> 
+          Cadastre-se! 
+        </h2>
+
+          <div class="input">
+            <input type="text" required class="nome"/>
+            <label>Nome</label>
+            <span class="error"></span>
+          </div>
+
+            <div class="input">
+              <input type="email" required class="email">
+              <label>Email</label>
+              <span class="error"></span>
+            </div>
+
+            <div class="input">
+              <input type="password" required class="senha">
+              <label>Senha</label>
+              <span class="error"></span>
+            </div>
+
+            <a  id="bb" href="./jogos.html"><button type="submit">Cadastrar</button></a>
+
+      </form>   
+      
+  </body>
+</html>
